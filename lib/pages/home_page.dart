@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
     final cart = Provider.of<CartProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Toko'),
+        title: const Text('Toko E-commerce'),
         actions: [
           IconButton(onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const CartPage())), icon: const Icon(Icons.shopping_cart)),
           IconButton(onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ProfilePage())), icon: const Icon(Icons.person)),
