@@ -63,7 +63,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
             const SizedBox(height: 12),
-            ListTile(title: const Text('Nama'), subtitle: const Text('— Nama Statis —')),
+            ListTile(title: const Text('Nama'), subtitle: const Text('Haidar Akmal R')),
             ListTile(title: const Text('NIM'), subtitle: const Text('124230022')),
             ListTile(title: const Text('Username'), subtitle: Text(_username ?? '—')),
             const SizedBox(height: 20),
